@@ -1,6 +1,6 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "nextjs-vanilla-extract-example",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +11,12 @@
     "next": "^11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@vanilla-extract/babel-plugin": "^1.0.1",
+    "@vanilla-extract/css": "^1.4.0",
+    "@vanilla-extract/webpack-plugin": "^2.0.0",
+    "typescript": "^4.4.2"
   }
 }
