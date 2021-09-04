@@ -19,6 +19,7 @@ Notable changes I made to the basic [Next.js example](https://nextjs.org/learn):
  - Added a `next.config.js` that modifies the webpack config, referencing `@vanilla-extract/webpack-plugin`.
  - Added a `.babelrc` file, referencing `@vanilla-extract/babel-plugin`.
  - Introduced a `components` folder and added a `HelloWorld` component with a matching `HelloWorld.css.ts` file, then rendered it on the index page.
+ - Added a `browserslist` field to `package.json`.
 
 ---
 
