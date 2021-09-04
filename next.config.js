@@ -2,7 +2,6 @@ const { VanillaExtractPlugin } = require('@vanilla-extract/webpack-plugin');
 const { getGlobalCssLoader } = require('next/dist/build/webpack/config/blocks/css/loaders');
 
 module.exports = {
-  webpack5: true,
   webpack(config, options) {
     const { dev, isServer } = options;
 
@@ -12,7 +11,6 @@ module.exports = {
       use: getGlobalCssLoader(
         {
           assetPrefix: config.assetPrefix,
-          future: { webpack5: true },
           isClient: !isServer,
           isServer,
           isDevelopment: dev,
